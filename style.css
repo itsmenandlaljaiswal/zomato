@@ -1,0 +1,113 @@
+/* common element */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.hr1 {
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+/* navigation bar */
+
+#navbar {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.591);
+    height: 80px;
+    align-items: center;
+    font-family: 'abril fatface', cursive;
+}
+
+#logo {
+    width: 15%;
+}
+
+
+
+
+#logoimg {
+    height: 60px;
+    margin: 12px 40px;
+    border-radius: 25px;
+}
+
+/* navigationlink */
+#navlinks {
+    width: 70%;
+
+
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    /* text align center */
+    justify-content: center;
+}
+
+.linkitem {}
+
+.linka {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+#links a:hover {
+    background-color: azure;
+    color: grey;
+    transition: 1s;
+
+}
+
+.currentpage {
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+/* social media links */
+
+#socialmedia {
+    margin: 10px;
+}
+
+#socialmedia img {
+    border-radius: 10px;
+}
+
+#socialmedia img:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 1);
+    ;
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+/* footer css */
+
+#footer {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.591);
+    height: 50px;
+    font-family: 'abril fatface', cursive;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 30px;
+    align-content: center;
+    color: white;
+    font-family: 'abril fatface', cursive;
+
+}
