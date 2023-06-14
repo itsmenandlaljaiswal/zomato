@@ -10,7 +10,28 @@
     border-style: solid;
 }
 
-/* navigation bar */
+.maintitle{
+    font-family: 'lobster' , cursive;
+    color: white;
+    font-size: 120px;
+    text-align: center;
+}
+
+.subtitle1{
+    font-family: 'lobster' , cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitle2{
+    font-family: 'lobster' , cursive;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* navigation bar css starts*/
 
 #navbar {
     display: flex;
@@ -89,13 +110,34 @@
 }
 
 
+/* navigation bar css ends */
+
+/* home content css starts here  */
+
+#homecontent{
+    height: 750px;
+    background-image: url(platter-2009590_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
 
 
+/* home content css ends here  */
+
+/* Facilities CSS starts */
+#facilities{
+display: flex;
+justify-content: space-evenly;
+height: 300px;
+align-items: center;
+background-color: rgb(16, 2, 2);
+}
 
 
-
-
-
+/* Facilities CSS ends */
 /* footer css */
 
 #footer {
