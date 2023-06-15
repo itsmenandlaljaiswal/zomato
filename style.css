@@ -2,6 +2,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+#top {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
 }
 
 .hr1 {
@@ -10,22 +17,22 @@
     border-style: solid;
 }
 
-.maintitle{
-    font-family: 'lobster' , cursive;
+.maintitle {
+    font-family: 'lobster', cursive;
     color: white;
     font-size: 120px;
     text-align: center;
 }
 
-.subtitle1{
-    font-family: 'lobster' , cursive;
+.subtitle1 {
+    font-family: 'lobster', cursive;
     color: white;
     font-size: 25px;
     text-align: center;
 }
 
-.subtitle2{
-    font-family: 'lobster' , cursive;
+.subtitle2 {
+    font-family: 'lobster', cursive;
     color: white;
     font-size: 25px;
     text-align: center;
@@ -39,6 +46,8 @@
     height: 80px;
     align-items: center;
     font-family: 'abril fatface', cursive;
+    position: sticky;
+    top: 0px;
 }
 
 #logo {
@@ -114,7 +123,7 @@
 
 /* home content css starts here  */
 
-#homecontent{
+#homecontent {
     height: 750px;
     background-image: url(platter-2009590_1280.jpg);
     background-size: cover;
@@ -128,12 +137,38 @@
 /* home content css ends here  */
 
 /* Facilities CSS starts */
-#facilities{
-display: flex;
-justify-content: space-evenly;
-height: 300px;
-align-items: center;
-background-color: rgb(16, 2, 2);
+#facilities {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    align-items: center;
+    background-color: rgb(16, 2, 2);
+}
+
+#facilities img {
+    height: 140px;
+    margin-top: 2px;
+}
+
+.facilityclass {
+    text-align: center;
+    margin-top: 25px;
+}
+
+
+.facilitypara1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 25px;
+    margin: auto;
+    font: bolder;
+}
+
+.facilitypara2 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
+    margin: auto;
 }
 
 
