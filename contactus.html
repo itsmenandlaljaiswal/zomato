@@ -1,69 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
-    <link href="https://fonts.google.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" >
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zomato Online Food Delivery Service</title>
+    <title>Zomato Online Food Delivery Services</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
 </head>
-
 <body>
-    <hr class="hr1">
-    <!-- navigation bar starts here  -->
+    <div id="top">
+        <a href="#Homecontent"><span class="material-symbols-outlined">
+            arrow_upward
+            </span></a>
+    </div>
+    
+
+   <hr class="hr1"> 
+   <!-- Navigation Bar Starts Here -->
     <div id="navbar">
-        <!-- logo -->
+
+        <!-- logo  -->
         <div id="logo">
-            <img src="logo.png" alt="Zomato" title="Zomato Online Food Delivery Service" id="logoimg">
+            <marquee behavior="" direction="right" scrollamount="5">
+                <img src="logo1.png" alt="Zomato" title="Zomato online food delivey services" id="logoimg">
+            </marquee>
+           
         </div>
-        <!-- navigation link  -->
+
+
+        <!-- Navigation links  -->
         <div id="navlinks">
             <ul id="links">
-                <li class="linkitem"> <a href="index.html" class="linka ">Home</a></li>
-                <li class="linkitem"> <a href="service.html" class="linka">Service</a></li>
-                <li class="linkitem"> <a href="client.html" class="linka">Clients</a></li>
-                <li class="linkitem"> <a href="contactus.html" class="linka currentpage ">Contact us</a></li>
+                <li class="linkitem" ><a href="index.html" class="linka ">Home</a></li>
+                <li class="linkitem"><a href="services.html" class="linka "> Services</a></li>
+                <li class="linkitem"><a href="clients.html" class="linka ">Clients</a></li>
+                <li class="linkitem"><a href="contactus.html" class="linka currentpage">Contact Us</a></li>
             </ul>
+
         </div>
-
-
+    
         <div id="socialmedia">
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="insta logo.png" alt="instagram" title="my instagram page"></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="facebook.jpg" alt="facebook" title="my facebook page"></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://in.linkedin.com/" target="_blank">
-                <img src="linkin.jpg" alt="linkin" title="my linkin page"></a>
-        </div>
+
+            <a href="https://www.instagram.com/" target="_blank"> <img src="instagram.png" alt="instagram" title="My instagram page"></a>
+                 &nbsp;&nbsp;&nbsp; 
+                <a href="https://www.facebook.com/" target="_blank"> <img src="fb.png" alt="Facebook" title="My facebook page"></a>
+                &nbsp; &nbsp;
+                <a href="https://in.linkedin.com/" target="_blank"> <img src="in.png" alt="Linkedin" title="My linkedin page"></a>
+                
+        </div>    
+
     </div>
+     
+
+   <!-- Navigation Bar Ends Here -->
+
+   <!-- Content of the page starts here  -->
+   <hr class="hr1">
+<div id="contactuscontent">
+    <h1 id="contactfood">
+        We would love to hear from you!
+    </h1>
+
+</div>
+
+<div id="contactform">
+    <form action="thankyou.html" method="get">
+            <div class="formgroup">
+                <label for="uname">Name:</label>
+            
+                <input type="text" name="uname" id="uname" placeholder="Enter Your Name" required placeholder="enter your password">
+            </div>
+            <div class="formgroup">
+                <label for="uemail">email</label>
+                <input type="email" uname="uemail" id="uemail" placeholder="enter email"required>
+            </div>
+            <div>
+                <div class="formgroup">
+                    <label for="psw">Password:</label>
+                    <input type="password" name="psw" id="psw" required>
+                </div>
+            </div>
+            <div class="formgroup">
+                <label for="gender">gender:</label>
+                <input type="radio" name="gender" id="gender" value="male">male
+                <input type="radio" name="gender" id="gender" value="female">female
+            </div>
+            <div class="formgroup"></div>
+
+            <div class="formgroup">
+                <input type="submit" class="submitbutton">
+            </div>
+
+    </form>
+
+</div>
+
+   <!-- Content of the page ends here  -->
+
+ <!-- Footer starts here  -->
+ <hr class="hr1">
+ <div id="footer">
+    Copy-right &copy; www.zomato.com Mobile:9876543210
+
+</div>
+        <!-- Footer ends here  -->
 
 
-    <!-- navigation bar ends here  -->
-    <hr class="hr1">
-    <!-- content of the page starts here -->
+   <hr class="hr1">
 
-    <div id="contactuscontent">
-        contact us content comes here
-    </div>
-    <!-- content of the page ends here -->
-    <hr class="hr1">
-    <!-- footer starts here -->
-    <div id="footer">
-        copyright &copy; www.zomato.com
-        mobile:7984949648
-    </div>
-    <!-- footer ends here -->
-
-
-    <hr class="hr1">
 </body>
-
 </html>

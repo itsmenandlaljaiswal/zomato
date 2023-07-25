@@ -1,85 +1,97 @@
-/* common element */
-* {
-    margin: 0px;
-    padding: 0px;
+/* Common Elements */
+*{
+    margin: 0PX;
+    padding: 0PX;
     box-sizing: border-box;
 }
 
-#top {
+#top{
     position: fixed;
     right: 30px;
     bottom: 30px;
 }
 
-.hr1 {
-    border: 2px;
-    border-color: red;
-    border-style: solid;
+.servicesh1{
+    font-family: 'Lobster', cursive;
+    color: brown;
+    text-align: center;
+    font-size: 45px;
 }
 
-.maintitle {
-    font-family: 'lobster', cursive;
+
+.hr1{
+    border: 2px;
+    border-color: rgb(239, 46, 46);
+    border-style: solid;
+    margin: 0;
+    opacity: 1;
+}
+.maintitle{
+    font-family: 'Lobster', cursive;
     color: white;
-    font-size: 120px;
+    font-size: 110px;
     text-align: center;
 }
 
 .subtitle1 {
-    font-family: 'lobster', cursive;
+    font-family: 'Lobster', cursive;
     color: white;
     font-size: 25px;
     text-align: center;
 }
-
 .subtitle2 {
-    font-family: 'lobster', cursive;
-    color: white;
-    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
     text-align: center;
 }
 
-/* navigation bar css starts*/
 
-#navbar {
+/* Navigation Bar CSS starts */
+
+
+#navbar{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.591);
+    background-color: rgb(190, 117, 117);
     height: 80px;
     align-items: center;
-    font-family: 'abril fatface', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: sticky;
     top: 0px;
 }
 
-#logo {
+/* logo  */
+
+#logo{
     width: 15%;
+    
 }
 
-
-
-
-#logoimg {
-    height: 60px;
+#logoimg{
+    height: 55px;
     margin: 12px 40px;
-    border-radius: 25px;
+   border-radius: 22px;
 }
 
-/* navigationlink */
-#navlinks {
+/* Navigation Links  */
+
+#navlinks{    
     width: 70%;
 
-
 }
 
-#links {
+#links{
     display: flex;
     list-style: none;
-    /* text align center */
+    /* text align center  */
     justify-content: center;
 }
 
-.linkitem {}
+.linkitem{
 
-.linka {
+}
+
+.linka{
     padding: 10px;
     margin: 15px;
     border-radius: 20px;
@@ -88,103 +100,199 @@
     font-size: 22px;
 }
 
-#links a:hover {
+.linka:hover{
     background-color: azure;
     color: grey;
     transition: 1s;
-
 }
 
-.currentpage {
-    border: 2px solid white;
-    border-radius: 20px;
+.currentpage{
+    border: 2px solid white; 
+    border-radius: 20px
 }
 
+/* Social Media Links  */
 
-/* social media links */
-
-#socialmedia {
-    margin: 10px;
+#socialmedia{
+    margin: auto;
 }
+#socialmedia img{
+    border-radius: 30px;
 
-#socialmedia img {
-    border-radius: 10px;
-}
+} 
 
-#socialmedia img:hover {
+#socialmedia img:hover{
     transform: scale(1.2);
-    box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 1);
-    ;
+    box-shadow: 0px 0px 25px 0px rgb(248, 248, 248); 
     transition: 1s;
 }
 
+    
 
-/* navigation bar css ends */
+/* Navigation Bar CSS ends */
 
-/* home content css starts here  */
+/* Home content CSS starts here  */
 
-#homecontent {
-    height: 750px;
-    background-image: url(platter-2009590_1280.jpg);
+#Homecontent{
+    height: 700px;
+    background-image: url(platter\ food.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Lobster', cursive;
-    color: white;
+    
 }
 
+/* Home content CSS ends here  */
 
-/* home content css ends here  */
+/* Facilities CSS starts  */
 
-/* Facilities CSS starts */
-#facilities {
+#facilities{
     display: flex;
     justify-content: space-around;
     height: 300px;
-    align-items: center;
-    background-color: rgb(16, 2, 2);
+    /* align-items: center; */
+    background-color: rgb(80, 30, 30);
 }
 
-#facilities img {
-    height: 140px;
-    margin-top: 2px;
-}
 
-.facilityclass {
+.facilityclass{
     text-align: center;
     margin-top: 25px;
+
+}
+#facilities img{
+    height: 150px;  
+}
+
+.facilitypara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.facilitypara2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
 }
 
 
-.facilitypara1 {
+/* Facilities CSS ends  */
+
+
+
+
+
+
+
+
+/* Footer CSS  */
+
+#footer{
+    display: flex;
+    background-color: rgb(190, 117, 117);
+    height: 50px;
+    /* align-items: center;  */
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: white;
+    justify-content: center;
+    line-height: 60px; 
+    
+}
+
+/* Services CSS starts here  */
+
+
+ #servicescontent{
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+ }
+
+.servicesbox{
+    width: 590px;
+    height: 400px;
+    border: 2px solid brown; 
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.servicesbox img{
+    border-radius: 25px;
+}
+.servicesbox h5{
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.servicesbox p{
+    border-radius: 25px;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 25px;
-    margin: auto;
-    font: bolder;
+    
 }
 
-.facilitypara2 {
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-size: 12px;
-    margin: auto;
+/* Services CSS ends here  */
+
+/* Contact us CSS starts here  */
+
+#contactuscontent{
+    background-image: url(contact\ food.jpg);
+    height: 450px;
+    background-position: bottom;
 }
 
+#contactuscontent h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 65px;
+    line-height: 200px;
 
-/* Facilities CSS ends */
-/* footer css */
-
-#footer {
+}
+#contactform{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.591);
-    height: 50px;
-    font-family: 'abril fatface', cursive;
     justify-content: center;
-    /* align-items: center; */
-    line-height: 30px;
-    align-content: center;
-    color: white;
-    font-family: 'abril fatface', cursive;
+    margin: 20px;
+    font-size: 20px;
+    font-family: 'Lobster', cursive;
 
 }
+#contactform input{
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(244, 211, 211);
+
+}
+#contactform input[type=submit]{
+
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+    background-color: rgb(244, 211, 211);  
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+}
+    .formgroup{
+        width: 300px;
+    }
+::placeholder{
+    color: brown;
+    opacity: 6;
+}
+
+#contactform input[type=radio]{width:auto;}
+ 
+
+/* Contact us CSS ends here  */
